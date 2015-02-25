@@ -1,2 +1,1 @@
-# HatfieldEnviroDataCore
-Hatfield Enviro Data Core
+Hatfield Enviro Data Management System
