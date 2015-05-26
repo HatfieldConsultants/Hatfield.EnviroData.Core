@@ -1,6 +1,6 @@
 # Hatfield's Environmental Data Management System: Core Shared Systems #
 
-This repository contains the contains contains shared systems used by the web, QA and Data Acquisition systems (ie Database, Notification & File System systems). This solution does not contain any UI implementations; the UI is located in the Hatfield.EnviroData.MVC solution/repository.
+This repository contains the shared systems used by the web, QA and Data Acquisition systems (ie Domain and Notification systems). This solution does not contain any UI implementations; the UI is located in the Hatfield.EnviroData.MVC solution/repository.
 
 Related repositories:
 *	Hatfield.EnviroData.DataAquisition: provides systems and functions to aquire data from local and remote locations
