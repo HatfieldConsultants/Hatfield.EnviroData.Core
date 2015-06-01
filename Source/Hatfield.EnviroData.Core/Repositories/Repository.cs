@@ -8,7 +8,7 @@ namespace Hatfield.EnviroData.Core.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        private IDbContext _dbContext;
+        protected IDbContext _dbContext;
 
         public Repository(IDbContext dbContext)
         {
