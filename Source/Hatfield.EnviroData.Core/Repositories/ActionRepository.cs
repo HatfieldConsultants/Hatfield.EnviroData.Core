@@ -23,13 +23,15 @@ namespace Hatfield.EnviroData.Core.Repositories
         public IEnumerable<Action> GetAllSampleCollectionActions()
         {
             var dbContext = (ODM2Entities)_dbContext;
-            var sampleCollectionActions = from action in dbContext.Actions
+            var sampleCollectionActions = (from action in dbContext.Actions
                                           join relatedAction in dbContext.RelatedActions
-                                          on action.ActionID equals relatedAction.ActionID
+                                          on action.ActionID equals relatedAction.RelatedActionID
                                           where relatedAction.RelationshipTypeCV == ISChildOfRelationshipCV
-                                          select action;
+                                          select action)
+                                          .Distinct()
+                                          .OrderBy(x => x.BeginDateTime);
 
-            return sampleCollectionActions;
+            return sampleCollectionActions.ToList();
                                                     
         }
     }

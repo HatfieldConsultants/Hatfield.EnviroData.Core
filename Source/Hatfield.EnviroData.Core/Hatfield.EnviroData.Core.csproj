@@ -152,6 +152,7 @@
     <Compile Include="FeatureAction.cs">
       <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="IActionRepository.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="InstrumentOutputVariable.cs">
       <DependentUpon>ODM2Model.tt</DependentUpon>
@@ -271,6 +272,7 @@
     <Compile Include="RelatedResult.cs">
       <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Repositories\ActionRepository.cs" />
     <Compile Include="Repositories\OrganizationRepository.cs" />
     <Compile Include="Repositories\VariableRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
