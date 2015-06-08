@@ -21,5 +21,6 @@ namespace Hatfield.EnviroData.Core
     
         public virtual Annotation Annotation { get; set; }
         public virtual Annotation Annotation1 { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
     }
 }

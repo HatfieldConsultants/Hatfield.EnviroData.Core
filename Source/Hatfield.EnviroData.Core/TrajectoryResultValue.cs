@@ -33,16 +33,19 @@ namespace Hatfield.EnviroData.Core
         public double TrajectoryDistance { get; set; }
         public double TrajectoryDistanceAggregationInterval { get; set; }
         public int TrajectoryDistanceUnitsID { get; set; }
-        public string CensorCode { get; set; }
+        public string CensorCodeCV { get; set; }
         public string QualityCodeCV { get; set; }
         public double TimeAggregationInterval { get; set; }
         public int TimeAggregationIntervalUnitsID { get; set; }
     
+        public virtual CV_CensorCode CV_CensorCode { get; set; }
+        public virtual CV_QualityCode CV_QualityCode { get; set; }
         public virtual TrajectoryResult TrajectoryResult { get; set; }
         public virtual ICollection<TrajectoryResultValueAnnotation> TrajectoryResultValueAnnotations { get; set; }
         public virtual Unit Unit { get; set; }
         public virtual Unit Unit1 { get; set; }
         public virtual Unit Unit2 { get; set; }
         public virtual Unit Unit3 { get; set; }
+        public virtual Unit Unit4 { get; set; }
     }
 }

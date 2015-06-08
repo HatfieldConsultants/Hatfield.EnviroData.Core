@@ -31,6 +31,9 @@ namespace Hatfield.EnviroData.Core
         public string SpeciationCV { get; set; }
         public double NoDataValue { get; set; }
     
+        public virtual CV_Speciation CV_Speciation { get; set; }
+        public virtual CV_VariableName CV_VariableName { get; set; }
+        public virtual CV_VariableType CV_VariableType { get; set; }
         public virtual ICollection<InstrumentOutputVariable> InstrumentOutputVariables { get; set; }
         public virtual ICollection<ReferenceMaterialValue> ReferenceMaterialValues { get; set; }
         public virtual ICollection<Result> Results { get; set; }

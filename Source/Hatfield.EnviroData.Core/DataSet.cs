@@ -12,25 +12,26 @@ namespace Hatfield.EnviroData.Core
     using System;
     using System.Collections.Generic;
     
-    public partial class DataSet
+    public partial class Dataset
     {
-        public DataSet()
+        public Dataset()
         {
-            this.DataSetCitations = new HashSet<DataSetCitation>();
-            this.DataSetsResults = new HashSet<DataSetsResult>();
+            this.DatasetCitations = new HashSet<DatasetCitation>();
+            this.DatasetsResults = new HashSet<DatasetsResult>();
             this.RelatedDatasets = new HashSet<RelatedDataset>();
             this.RelatedDatasets1 = new HashSet<RelatedDataset>();
         }
     
-        public int DataSetID { get; set; }
-        public System.Guid DataSetUUID { get; set; }
-        public string DataSetTypeCV { get; set; }
-        public string DataSetCode { get; set; }
-        public string DataSetTitle { get; set; }
-        public string DataSetAbstract { get; set; }
+        public int DatasetID { get; set; }
+        public System.Guid DatasetUUID { get; set; }
+        public string DatasetTypeCV { get; set; }
+        public string DatasetCode { get; set; }
+        public string DatasetTitle { get; set; }
+        public string DatasetAbstract { get; set; }
     
-        public virtual ICollection<DataSetCitation> DataSetCitations { get; set; }
-        public virtual ICollection<DataSetsResult> DataSetsResults { get; set; }
+        public virtual CV_DatasetTypeCV CV_DatasetTypeCV { get; set; }
+        public virtual ICollection<DatasetCitation> DatasetCitations { get; set; }
+        public virtual ICollection<DatasetsResult> DatasetsResults { get; set; }
         public virtual ICollection<RelatedDataset> RelatedDatasets { get; set; }
         public virtual ICollection<RelatedDataset> RelatedDatasets1 { get; set; }
     }

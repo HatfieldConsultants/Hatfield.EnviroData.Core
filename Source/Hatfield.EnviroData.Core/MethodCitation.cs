@@ -20,6 +20,7 @@ namespace Hatfield.EnviroData.Core
         public int CitationID { get; set; }
     
         public virtual Citation Citation { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
         public virtual Method Method { get; set; }
     }
 }

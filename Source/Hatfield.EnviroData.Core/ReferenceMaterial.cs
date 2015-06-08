@@ -32,6 +32,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<int> SamplingFeatureID { get; set; }
     
         public virtual ICollection<CalibrationStandard> CalibrationStandards { get; set; }
+        public virtual CV_ReferenceMaterialMedium CV_ReferenceMaterialMedium { get; set; }
         public virtual Organization Organization { get; set; }
         public virtual ICollection<ReferenceMaterialExternalIdentifier> ReferenceMaterialExternalIdentifiers { get; set; }
         public virtual SamplingFeature SamplingFeature { get; set; }

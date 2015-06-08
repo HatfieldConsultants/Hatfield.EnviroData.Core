@@ -24,6 +24,8 @@ namespace Hatfield.EnviroData.Core
         public string SpecimenMediumCV { get; set; }
         public bool IsFieldSpecimen { get; set; }
     
+        public virtual CV_SpecimenMedium CV_SpecimenMedium { get; set; }
+        public virtual CV_SpecimenType CV_SpecimenType { get; set; }
         public virtual SamplingFeature SamplingFeature { get; set; }
         public virtual ICollection<SpecimenTaxonomicClassifier> SpecimenTaxonomicClassifiers { get; set; }
     }

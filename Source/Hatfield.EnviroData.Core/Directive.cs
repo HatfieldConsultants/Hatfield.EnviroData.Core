@@ -24,5 +24,6 @@ namespace Hatfield.EnviroData.Core
         public string DirectiveDescription { get; set; }
     
         public virtual ICollection<ActionDirective> ActionDirectives { get; set; }
+        public virtual CV_DirectiveType CV_DirectiveType { get; set; }
     }
 }

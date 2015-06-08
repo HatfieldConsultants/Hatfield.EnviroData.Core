@@ -32,6 +32,7 @@ namespace Hatfield.EnviroData.Core
     
         public virtual ICollection<ActionExtensionPropertyValue> ActionExtensionPropertyValues { get; set; }
         public virtual ICollection<CitationExtensionPropertyValue> CitationExtensionPropertyValues { get; set; }
+        public virtual CV_PropertyDataType CV_PropertyDataType { get; set; }
         public virtual Unit Unit { get; set; }
         public virtual ICollection<MethodExtensionPropertyValue> MethodExtensionPropertyValues { get; set; }
         public virtual ICollection<ResultExtensionPropertyValue> ResultExtensionPropertyValues { get; set; }

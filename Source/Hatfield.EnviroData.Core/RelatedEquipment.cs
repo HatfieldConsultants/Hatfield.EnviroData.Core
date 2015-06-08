@@ -23,6 +23,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<System.DateTime> RelationshipEndDateTime { get; set; }
         public Nullable<int> RelationshipEndDateTimeUTCOffset { get; set; }
     
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
         public virtual Equipment Equipment { get; set; }
         public virtual Equipment Equipment1 { get; set; }
     }

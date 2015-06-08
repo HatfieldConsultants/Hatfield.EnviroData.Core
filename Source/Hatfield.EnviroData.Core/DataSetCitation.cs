@@ -12,7 +12,7 @@ namespace Hatfield.EnviroData.Core
     using System;
     using System.Collections.Generic;
     
-    public partial class DataSetCitation
+    public partial class DatasetCitation
     {
         public int BridgeID { get; set; }
         public int DataSetID { get; set; }
@@ -20,6 +20,7 @@ namespace Hatfield.EnviroData.Core
         public int CitationID { get; set; }
     
         public virtual Citation Citation { get; set; }
-        public virtual DataSet DataSet { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
+        public virtual Dataset Dataset { get; set; }
     }
 }

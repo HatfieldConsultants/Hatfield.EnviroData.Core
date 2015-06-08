@@ -18,7 +18,7 @@ namespace Hatfield.EnviroData.Core
         public int PersonID { get; set; }
         public int ExternalIdentifierSystemID { get; set; }
         public string PersonExternalIdentifier1 { get; set; }
-        public string PersonExternalIdenifierURI { get; set; }
+        public string PersonExternalIdentifierURI { get; set; }
     
         public virtual ExternalIdentifierSystem ExternalIdentifierSystem { get; set; }
         public virtual Person Person { get; set; }

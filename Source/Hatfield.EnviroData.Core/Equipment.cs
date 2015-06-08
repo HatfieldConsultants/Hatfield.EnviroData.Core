@@ -37,6 +37,7 @@ namespace Hatfield.EnviroData.Core
         public string EquipmentDocumentationLink { get; set; }
     
         public virtual ICollection<CalibrationReferenceEquipment> CalibrationReferenceEquipments { get; set; }
+        public virtual CV_EquipmentType CV_EquipmentType { get; set; }
         public virtual EquipmentModel EquipmentModel { get; set; }
         public virtual Organization Organization { get; set; }
         public virtual Person Person { get; set; }

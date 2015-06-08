@@ -21,6 +21,7 @@ namespace Hatfield.EnviroData.Core
         public string VersionCode { get; set; }
         public Nullable<int> RelatedResultSequenceNumber { get; set; }
     
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
         public virtual Result Result { get; set; }
         public virtual Result Result1 { get; set; }
     }

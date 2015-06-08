@@ -31,6 +31,8 @@ namespace Hatfield.EnviroData.Core
         public string CensorCodeCV { get; set; }
         public string QualityCodeCV { get; set; }
     
+        public virtual CV_CensorCode CV_CensorCode { get; set; }
+        public virtual CV_QualityCode CV_QualityCode { get; set; }
         public virtual PointCoverageResult PointCoverageResult { get; set; }
         public virtual ICollection<PointCoverageResultValueAnnotation> PointCoverageResultValueAnnotations { get; set; }
         public virtual Unit Unit { get; set; }

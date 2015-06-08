@@ -20,6 +20,7 @@ namespace Hatfield.EnviroData.Core
         public int RelatedFeatureID { get; set; }
         public Nullable<int> SpatialOffsetID { get; set; }
     
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
         public virtual SamplingFeature SamplingFeature { get; set; }
         public virtual SamplingFeature SamplingFeature1 { get; set; }
         public virtual SpatialOffset SpatialOffset { get; set; }

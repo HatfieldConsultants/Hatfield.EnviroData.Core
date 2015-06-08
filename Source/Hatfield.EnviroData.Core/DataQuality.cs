@@ -27,6 +27,7 @@ namespace Hatfield.EnviroData.Core
         public string DataQualityDescription { get; set; }
         public string DataQualityLink { get; set; }
     
+        public virtual CV_DataQualityType CV_DataQualityType { get; set; }
         public virtual Unit Unit { get; set; }
         public virtual ICollection<ResultsDataQuality> ResultsDataQualities { get; set; }
     }

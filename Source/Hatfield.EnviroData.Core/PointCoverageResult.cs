@@ -31,6 +31,7 @@ namespace Hatfield.EnviroData.Core
         public double TimeAggregationInterval { get; set; }
         public int TimeAggregationIntervalUnitsID { get; set; }
     
+        public virtual CV_AggregationStatistic CV_AggregationStatistic { get; set; }
         public virtual Result Result { get; set; }
         public virtual SpatialReference SpatialReference { get; set; }
         public virtual Unit Unit { get; set; }

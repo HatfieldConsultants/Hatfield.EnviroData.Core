@@ -19,6 +19,7 @@ namespace Hatfield.EnviroData.Core
         public int TaxonomicClassifierID { get; set; }
         public Nullable<int> CitationID { get; set; }
     
+        public virtual Citation Citation { get; set; }
         public virtual Specimen Specimen { get; set; }
         public virtual TaxonomicClassifier TaxonomicClassifier { get; set; }
     }

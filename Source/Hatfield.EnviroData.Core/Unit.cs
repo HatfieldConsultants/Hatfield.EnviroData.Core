@@ -45,6 +45,9 @@ namespace Hatfield.EnviroData.Core
             this.SectionResultValues = new HashSet<SectionResultValue>();
             this.SectionResultValues1 = new HashSet<SectionResultValue>();
             this.SectionResultValues2 = new HashSet<SectionResultValue>();
+            this.SpatialOffsets = new HashSet<SpatialOffset>();
+            this.SpatialOffsets1 = new HashSet<SpatialOffset>();
+            this.SpatialOffsets2 = new HashSet<SpatialOffset>();
             this.SpectraResults = new HashSet<SpectraResult>();
             this.SpectraResults1 = new HashSet<SpectraResult>();
             this.SpectraResults2 = new HashSet<SpectraResult>();
@@ -62,16 +65,23 @@ namespace Hatfield.EnviroData.Core
             this.TrajectoryResultValues1 = new HashSet<TrajectoryResultValue>();
             this.TrajectoryResultValues2 = new HashSet<TrajectoryResultValue>();
             this.TrajectoryResultValues3 = new HashSet<TrajectoryResultValue>();
+            this.TrajectoryResultValues4 = new HashSet<TrajectoryResultValue>();
             this.TransectResults = new HashSet<TransectResult>();
             this.TransectResults1 = new HashSet<TransectResult>();
             this.TransectResults2 = new HashSet<TransectResult>();
+            this.TransectResultValues = new HashSet<TransectResultValue>();
+            this.TransectResultValues1 = new HashSet<TransectResultValue>();
+            this.TransectResultValues2 = new HashSet<TransectResultValue>();
+            this.TransectResultValues3 = new HashSet<TransectResultValue>();
         }
     
         public int UnitsID { get; set; }
         public string UnitsTypeCV { get; set; }
         public string UnitsAbbreviation { get; set; }
         public string UnitsName { get; set; }
+        public string UnitsLink { get; set; }
     
+        public virtual CV_UnitsType CV_UnitsType { get; set; }
         public virtual ICollection<DataloggerFileColumn> DataloggerFileColumns { get; set; }
         public virtual ICollection<DataloggerFileColumn> DataloggerFileColumns1 { get; set; }
         public virtual ICollection<DataQuality> DataQualities { get; set; }
@@ -101,6 +111,9 @@ namespace Hatfield.EnviroData.Core
         public virtual ICollection<SectionResultValue> SectionResultValues { get; set; }
         public virtual ICollection<SectionResultValue> SectionResultValues1 { get; set; }
         public virtual ICollection<SectionResultValue> SectionResultValues2 { get; set; }
+        public virtual ICollection<SpatialOffset> SpatialOffsets { get; set; }
+        public virtual ICollection<SpatialOffset> SpatialOffsets1 { get; set; }
+        public virtual ICollection<SpatialOffset> SpatialOffsets2 { get; set; }
         public virtual ICollection<SpectraResult> SpectraResults { get; set; }
         public virtual ICollection<SpectraResult> SpectraResults1 { get; set; }
         public virtual ICollection<SpectraResult> SpectraResults2 { get; set; }
@@ -118,8 +131,13 @@ namespace Hatfield.EnviroData.Core
         public virtual ICollection<TrajectoryResultValue> TrajectoryResultValues1 { get; set; }
         public virtual ICollection<TrajectoryResultValue> TrajectoryResultValues2 { get; set; }
         public virtual ICollection<TrajectoryResultValue> TrajectoryResultValues3 { get; set; }
+        public virtual ICollection<TrajectoryResultValue> TrajectoryResultValues4 { get; set; }
         public virtual ICollection<TransectResult> TransectResults { get; set; }
         public virtual ICollection<TransectResult> TransectResults1 { get; set; }
         public virtual ICollection<TransectResult> TransectResults2 { get; set; }
+        public virtual ICollection<TransectResultValue> TransectResultValues { get; set; }
+        public virtual ICollection<TransectResultValue> TransectResultValues1 { get; set; }
+        public virtual ICollection<TransectResultValue> TransectResultValues2 { get; set; }
+        public virtual ICollection<TransectResultValue> TransectResultValues3 { get; set; }
     }
 }

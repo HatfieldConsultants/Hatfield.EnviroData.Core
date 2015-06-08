@@ -17,7 +17,7 @@ namespace Hatfield.EnviroData.Core
         public Result()
         {
             this.DataloggerFileColumns = new HashSet<DataloggerFileColumn>();
-            this.DataSetsResults = new HashSet<DataSetsResult>();
+            this.DatasetsResults = new HashSet<DatasetsResult>();
             this.RelatedResults = new HashSet<RelatedResult>();
             this.RelatedResults1 = new HashSet<RelatedResult>();
             this.ResultAnnotations = new HashSet<ResultAnnotation>();
@@ -42,8 +42,11 @@ namespace Hatfield.EnviroData.Core
         public int ValueCount { get; set; }
     
         public virtual CategoricalResult CategoricalResult { get; set; }
+        public virtual CV_ResultType CV_ResultType { get; set; }
+        public virtual CV_SampledMedium CV_SampledMedium { get; set; }
+        public virtual CV_Status CV_Status { get; set; }
         public virtual ICollection<DataloggerFileColumn> DataloggerFileColumns { get; set; }
-        public virtual ICollection<DataSetsResult> DataSetsResults { get; set; }
+        public virtual ICollection<DatasetsResult> DatasetsResults { get; set; }
         public virtual FeatureAction FeatureAction { get; set; }
         public virtual MeasurementResult MeasurementResult { get; set; }
         public virtual PointCoverageResult PointCoverageResult { get; set; }
@@ -53,7 +56,6 @@ namespace Hatfield.EnviroData.Core
         public virtual ICollection<RelatedResult> RelatedResults1 { get; set; }
         public virtual ICollection<ResultAnnotation> ResultAnnotations { get; set; }
         public virtual ICollection<ResultExtensionPropertyValue> ResultExtensionPropertyValues { get; set; }
-        public virtual ResultTypeCV ResultTypeCV1 { get; set; }
         public virtual TaxonomicClassifier TaxonomicClassifier { get; set; }
         public virtual Unit Unit { get; set; }
         public virtual Variable Variable { get; set; }

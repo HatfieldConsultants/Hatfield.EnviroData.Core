@@ -28,6 +28,10 @@ namespace Hatfield.EnviroData.Core
         public Nullable<double> Offset3Value { get; set; }
         public Nullable<int> Offset3UnitID { get; set; }
     
+        public virtual CV_SpatialOffsetType CV_SpatialOffsetType { get; set; }
         public virtual ICollection<RelatedFeature> RelatedFeatures { get; set; }
+        public virtual Unit Unit { get; set; }
+        public virtual Unit Unit1 { get; set; }
+        public virtual Unit Unit2 { get; set; }
     }
 }

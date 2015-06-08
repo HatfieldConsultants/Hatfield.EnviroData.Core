@@ -32,6 +32,8 @@ namespace Hatfield.EnviroData.Core
         public double TimeAggregationInterval { get; set; }
         public int TimeAggregationIntervalUnitsID { get; set; }
     
+        public virtual CV_CensorCode CV_CensorCode { get; set; }
+        public virtual CV_QualityCode CV_QualityCode { get; set; }
         public virtual ProfileResult ProfileResult { get; set; }
         public virtual ICollection<ProfileResultValueAnnotation> ProfileResultValueAnnotations { get; set; }
         public virtual Unit Unit { get; set; }

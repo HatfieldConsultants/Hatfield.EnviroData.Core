@@ -20,7 +20,8 @@ namespace Hatfield.EnviroData.Core
         public int RelatedDatasetID { get; set; }
         public string VersionCode { get; set; }
     
-        public virtual DataSet DataSet { get; set; }
-        public virtual DataSet DataSet1 { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
+        public virtual Dataset Dataset { get; set; }
+        public virtual Dataset Dataset1 { get; set; }
     }
 }

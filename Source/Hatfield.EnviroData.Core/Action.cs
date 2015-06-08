@@ -41,6 +41,7 @@ namespace Hatfield.EnviroData.Core
         public virtual ICollection<ActionBy> ActionBies { get; set; }
         public virtual ICollection<ActionDirective> ActionDirectives { get; set; }
         public virtual ICollection<ActionExtensionPropertyValue> ActionExtensionPropertyValues { get; set; }
+        public virtual CV_ActionType CV_ActionType { get; set; }
         public virtual Method Method { get; set; }
         public virtual CalibrationAction CalibrationAction { get; set; }
         public virtual ICollection<EquipmentUsed> EquipmentUseds { get; set; }

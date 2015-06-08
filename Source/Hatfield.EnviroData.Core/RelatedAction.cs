@@ -21,5 +21,6 @@ namespace Hatfield.EnviroData.Core
     
         public virtual Action Action { get; set; }
         public virtual Action Action1 { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
     }
 }

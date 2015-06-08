@@ -18,8 +18,9 @@ namespace Hatfield.EnviroData.Core
         public string SiteTypeCV { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
-        public int LatLonDatumID { get; set; }
+        public int SpatialReferenceID { get; set; }
     
+        public virtual CV_SiteType CV_SiteType { get; set; }
         public virtual SamplingFeature SamplingFeature { get; set; }
         public virtual SpatialReference SpatialReference { get; set; }
     }

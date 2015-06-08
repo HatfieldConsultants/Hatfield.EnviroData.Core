@@ -29,6 +29,7 @@ namespace Hatfield.EnviroData.Core
         public string TaxonomicClassifierDescription { get; set; }
         public Nullable<int> ParentTaxonomicClassifierID { get; set; }
     
+        public virtual CV_TaxonomicClassifierType CV_TaxonomicClassifierType { get; set; }
         public virtual ICollection<Result> Results { get; set; }
         public virtual ICollection<SpecimenTaxonomicClassifier> SpecimenTaxonomicClassifiers { get; set; }
         public virtual ICollection<TaxonomicClassifierExternalIdentifier> TaxonomicClassifierExternalIdentifiers { get; set; }

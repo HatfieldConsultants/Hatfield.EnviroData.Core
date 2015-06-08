@@ -20,11 +20,12 @@ namespace Hatfield.EnviroData.Core
             this.AuthorLists = new HashSet<AuthorList>();
             this.CitationExtensionPropertyValues = new HashSet<CitationExtensionPropertyValue>();
             this.CitationExternalIdentifiers = new HashSet<CitationExternalIdentifier>();
-            this.DataSetCitations = new HashSet<DataSetCitation>();
+            this.DatasetCitations = new HashSet<DatasetCitation>();
             this.MethodCitations = new HashSet<MethodCitation>();
             this.ReferenceMaterialValues = new HashSet<ReferenceMaterialValue>();
             this.RelatedCitations = new HashSet<RelatedCitation>();
             this.RelatedCitations1 = new HashSet<RelatedCitation>();
+            this.SpecimenTaxonomicClassifiers = new HashSet<SpecimenTaxonomicClassifier>();
         }
     
         public int CitationID { get; set; }
@@ -37,10 +38,11 @@ namespace Hatfield.EnviroData.Core
         public virtual ICollection<AuthorList> AuthorLists { get; set; }
         public virtual ICollection<CitationExtensionPropertyValue> CitationExtensionPropertyValues { get; set; }
         public virtual ICollection<CitationExternalIdentifier> CitationExternalIdentifiers { get; set; }
-        public virtual ICollection<DataSetCitation> DataSetCitations { get; set; }
+        public virtual ICollection<DatasetCitation> DatasetCitations { get; set; }
         public virtual ICollection<MethodCitation> MethodCitations { get; set; }
         public virtual ICollection<ReferenceMaterialValue> ReferenceMaterialValues { get; set; }
         public virtual ICollection<RelatedCitation> RelatedCitations { get; set; }
         public virtual ICollection<RelatedCitation> RelatedCitations1 { get; set; }
+        public virtual ICollection<SpecimenTaxonomicClassifier> SpecimenTaxonomicClassifiers { get; set; }
     }
 }

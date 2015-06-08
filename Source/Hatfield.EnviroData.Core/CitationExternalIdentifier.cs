@@ -17,8 +17,8 @@ namespace Hatfield.EnviroData.Core
         public int BridgeID { get; set; }
         public int CitationID { get; set; }
         public int ExternalIdentifierSystemID { get; set; }
-        public string CitationExternalIdentifer { get; set; }
-        public string CitationExternalIdentiferURI { get; set; }
+        public string CitationExternalIdentifier1 { get; set; }
+        public string CitationExternalIdentifierURI { get; set; }
     
         public virtual Citation Citation { get; set; }
         public virtual ExternalIdentifierSystem ExternalIdentifierSystem { get; set; }

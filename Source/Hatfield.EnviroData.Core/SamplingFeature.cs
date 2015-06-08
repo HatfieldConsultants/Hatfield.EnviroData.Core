@@ -36,6 +36,9 @@ namespace Hatfield.EnviroData.Core
         public Nullable<double> Elevation_m { get; set; }
         public string ElevationDatumCV { get; set; }
     
+        public virtual CV_ElevationDatum CV_ElevationDatum { get; set; }
+        public virtual CV_SamplingFeatureGeoType CV_SamplingFeatureGeoType { get; set; }
+        public virtual CV_SamplingFeatureType CV_SamplingFeatureType { get; set; }
         public virtual ICollection<FeatureAction> FeatureActions { get; set; }
         public virtual ICollection<ReferenceMaterial> ReferenceMaterials { get; set; }
         public virtual ICollection<RelatedFeature> RelatedFeatures { get; set; }

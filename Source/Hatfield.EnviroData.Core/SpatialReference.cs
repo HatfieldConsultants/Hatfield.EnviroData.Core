@@ -33,6 +33,7 @@ namespace Hatfield.EnviroData.Core
         public string SRSCode { get; set; }
         public string SRSName { get; set; }
         public string SRSDescription { get; set; }
+        public string SRSLink { get; set; }
     
         public virtual ICollection<CategoricalResult> CategoricalResults { get; set; }
         public virtual ICollection<MeasurementResult> MeasurementResults { get; set; }

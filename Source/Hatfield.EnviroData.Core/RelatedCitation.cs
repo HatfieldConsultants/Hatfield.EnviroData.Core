@@ -16,10 +16,11 @@ namespace Hatfield.EnviroData.Core
     {
         public int RelationID { get; set; }
         public int CitationID { get; set; }
-        public int RelationshipTypeCV { get; set; }
+        public string RelationshipTypeCV { get; set; }
         public int RelatedCitationID { get; set; }
     
         public virtual Citation Citation { get; set; }
         public virtual Citation Citation1 { get; set; }
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
     }
 }

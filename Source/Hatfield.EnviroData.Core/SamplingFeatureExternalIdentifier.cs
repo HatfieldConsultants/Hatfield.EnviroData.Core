@@ -18,7 +18,7 @@ namespace Hatfield.EnviroData.Core
         public int SamplingFeatureID { get; set; }
         public int ExternalIdentifierSystemID { get; set; }
         public string SamplingFeatureExternalIdentifier1 { get; set; }
-        public string SamplingFeatureExternalIdentiferURI { get; set; }
+        public string SamplingFeatureExternalIdentifierURI { get; set; }
     
         public virtual ExternalIdentifierSystem ExternalIdentifierSystem { get; set; }
         public virtual SamplingFeature SamplingFeature { get; set; }

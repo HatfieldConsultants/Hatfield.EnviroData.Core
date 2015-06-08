@@ -19,6 +19,7 @@ namespace Hatfield.EnviroData.Core
         public string RelationshipTypeCV { get; set; }
         public int RelatedModelID { get; set; }
     
+        public virtual CV_RelationshipType CV_RelationshipType { get; set; }
         public virtual Model Model { get; set; }
     }
 }

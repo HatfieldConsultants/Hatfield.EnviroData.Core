@@ -27,6 +27,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<int> RecordingIntervalUnitsID { get; set; }
         public string AggregationStatisticCV { get; set; }
     
+        public virtual CV_AggregationStatistic CV_AggregationStatistic { get; set; }
         public virtual DataLoggerFile DataLoggerFile { get; set; }
         public virtual InstrumentOutputVariable InstrumentOutputVariable { get; set; }
         public virtual Unit Unit { get; set; }

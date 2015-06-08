@@ -46,6 +46,7 @@ namespace Hatfield.EnviroData.Core
     
         public virtual ICollection<ActionAnnotation> ActionAnnotations { get; set; }
         public virtual Citation Citation { get; set; }
+        public virtual CV_AnnotationType CV_AnnotationType { get; set; }
         public virtual Person Person { get; set; }
         public virtual ICollection<CategoricalResultValueAnnotation> CategoricalResultValueAnnotations { get; set; }
         public virtual ICollection<EquipmentAnnotation> EquipmentAnnotations { get; set; }

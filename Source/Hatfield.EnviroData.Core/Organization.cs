@@ -34,6 +34,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<int> ParentOrganizationID { get; set; }
     
         public virtual ICollection<Affiliation> Affiliations { get; set; }
+        public virtual CV_OrganizationType CV_OrganizationType { get; set; }
         public virtual ICollection<Equipment> Equipments { get; set; }
         public virtual ICollection<EquipmentModel> EquipmentModels { get; set; }
         public virtual ICollection<ExternalIdentifierSystem> ExternalIdentifierSystems { get; set; }

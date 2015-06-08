@@ -29,6 +29,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<int> IntendedTimeSpacingUnitsID { get; set; }
         public string AggregationStatisticCV { get; set; }
     
+        public virtual CV_AggregationStatistic CV_AggregationStatistic { get; set; }
         public virtual Result Result { get; set; }
         public virtual SpatialReference SpatialReference { get; set; }
         public virtual Unit Unit { get; set; }

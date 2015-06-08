@@ -12,13 +12,13 @@ namespace Hatfield.EnviroData.Core
     using System;
     using System.Collections.Generic;
     
-    public partial class DataSetsResult
+    public partial class DatasetsResult
     {
         public int BridgeID { get; set; }
-        public int DataSetID { get; set; }
+        public int DatasetID { get; set; }
         public long ResultID { get; set; }
     
-        public virtual DataSet DataSet { get; set; }
+        public virtual Dataset Dataset { get; set; }
         public virtual Result Result { get; set; }
     }
 }

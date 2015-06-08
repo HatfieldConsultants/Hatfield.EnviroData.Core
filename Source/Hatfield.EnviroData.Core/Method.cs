@@ -33,6 +33,7 @@ namespace Hatfield.EnviroData.Core
         public Nullable<int> OrganizationID { get; set; }
     
         public virtual ICollection<Action> Actions { get; set; }
+        public virtual CV_MethodType CV_MethodType { get; set; }
         public virtual ICollection<InstrumentOutputVariable> InstrumentOutputVariables { get; set; }
         public virtual ICollection<MethodAnnotation> MethodAnnotations { get; set; }
         public virtual ICollection<MethodCitation> MethodCitations { get; set; }
