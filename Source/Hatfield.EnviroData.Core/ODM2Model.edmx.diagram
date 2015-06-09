@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="55d8383b9025463b966be9a0f62d3eab" Name="Diagram1">
+      <Diagram DiagramId="70411a0c29bc49738b61b1abef361e87" Name="Diagram1">
         <EntityTypeShape EntityType="ODM2Model.ActionAnnotation" Width="1.5" PointX="11.25" PointY="40.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ODM2Model.ActionBy" Width="1.5" PointX="21.25" PointY="61.125" IsExpanded="true" />
         <EntityTypeShape EntityType="ODM2Model.ActionDirective" Width="1.5" PointX="16.25" PointY="67.75" IsExpanded="true" />

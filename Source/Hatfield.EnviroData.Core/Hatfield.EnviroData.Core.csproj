@@ -51,447 +51,447 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ActionAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ActionBy.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ActionDirective.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ActionExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Affiliation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Annotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="AuthorList.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CalibrationAction.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CalibrationReferenceEquipment.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CalibrationStandard.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CategoricalResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CategoricalResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CategoricalResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Citation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CitationExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CitationExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_ActionType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_AggregationStatistic.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_AnnotationType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_CensorCode.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_DataQualityType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_DatasetTypeCV.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_DirectiveType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_ElevationDatum.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_EquipmentType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_MethodType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_OrganizationType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_PropertyDataType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_QualityCode.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_ReferenceMaterialMedium.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_RelationshipType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_ResultType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SampledMedium.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SamplingFeatureGeoType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SamplingFeatureType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SiteType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SpatialOffsetType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_Speciation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SpecimenMedium.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_SpecimenType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_Status.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_TaxonomicClassifierType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_UnitsType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_VariableName.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="CV_VariableType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DataLoggerFile.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DataloggerFileColumn.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DataloggerProgramFile.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DataQuality.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Dataset.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DatasetCitation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DatasetsResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="DerivationEquation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Directive.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Equipment.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="EquipmentAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="EquipmentModel.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="EquipmentUsed.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ExtensionProperty.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ExternalIdentifierSystem.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="FeatureAction.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="IActionRepository.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="InstrumentOutputVariable.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="IOrganizationRepository.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="IVariableRepository.cs" />
     <Compile Include="MaintenanceAction.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MeasurementResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MeasurementResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MeasurementResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Method.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MethodAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MethodCitation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MethodExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="MethodExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Model.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ModelAffiliation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ODM2Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ODM2Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ODM2Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ODM2Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ODM2Model.edmx</DependentUpon>
     </Compile>
     <Compile Include="Organization.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Person.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="PersonExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="PointCoverageResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="PointCoverageResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="PointCoverageResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ProcessingLevel.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ProfileResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ProfileResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ProfileResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReferenceMaterial.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ReferenceMaterialExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ReferenceMaterialValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedAction.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedCitation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedDataset.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedEquipment.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedFeature.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedModel.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="RelatedResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Repositories\ActionRepository.cs" />
     <Compile Include="Repositories\OrganizationRepository.cs" />
     <Compile Include="Repositories\VariableRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ResultAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ResultExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="ResultsDataQuality.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SamplingFeature.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SamplingFeatureAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SamplingFeatureExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SamplingFeatureExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SectionResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SectionResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SectionResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Simulation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Site.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpatialOffset.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpatialReference.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpatialReferenceExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Specimen.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpecimenBatchPostion.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpecimenTaxonomicClassifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpectraResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpectraResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="SpectraResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TaxonomicClassifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TaxonomicClassifierExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TimeSeriesResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TimeSeriesResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TimeSeriesResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TrajectoryResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TrajectoryResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TrajectoryResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TransectResult.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TransectResultValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="TransectResultValueAnnotation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Unit.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Variable.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="VariableExtensionPropertyValue.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="VariableExternalIdentifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config">
       <SubType>Designer</SubType>
     </None>
-    <EntityDeploy Include="Model1.edmx">
+    <EntityDeploy Include="ODM2Model.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ODM2Model.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Model1.Context.tt">
+    <None Include="ODM2Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>ODM2Model.edmx</DependentUpon>
+      <LastGenOutput>ODM2Model.Context.cs</LastGenOutput>
     </None>
-    <None Include="Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
+    <None Include="ODM2Model.edmx.diagram">
+      <DependentUpon>ODM2Model.edmx</DependentUpon>
     </None>
-    <None Include="Model1.tt">
+    <None Include="ODM2Model.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
+      <DependentUpon>ODM2Model.edmx</DependentUpon>
+      <LastGenOutput>ODM2Model.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
