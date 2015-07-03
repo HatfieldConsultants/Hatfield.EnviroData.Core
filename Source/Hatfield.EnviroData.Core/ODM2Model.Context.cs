@@ -12,8 +12,9 @@ namespace Hatfield.EnviroData.Core
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Linq;
     
-    public partial class ODM2Entities : DbContext
+    public partial class ODM2Entities : DbContext, IDbContext
     {
         public ODM2Entities()
             : base("name=ODM2Entities")
@@ -157,5 +158,25 @@ namespace Hatfield.EnviroData.Core
         public virtual DbSet<VariableExtensionPropertyValue> VariableExtensionPropertyValues { get; set; }
         public virtual DbSet<VariableExternalIdentifier> VariableExternalIdentifiers { get; set; }
         public virtual DbSet<Variable> Variables { get; set; }
+
+        public IQueryable<T> Query<T>() where T : class
+        {
+            return Set<T>();
+        }
+
+        public void Add<T>(T entity) where T : class
+        {
+            Set<T>().Add(entity);
+        }
+
+        public void Update<T>(T entity) where T : class
+        {
+            Entry(entity).State = EntityState.Modified;
+        }
+
+        public void Remove<T>(T entity) where T : class
+        {
+            Set<T>().Remove(entity);
+        }
     }
 }

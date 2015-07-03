@@ -357,6 +357,7 @@
       <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Repositories\ActionRepository.cs" />
+    <Compile Include="Repositories\CVActionTypeRepository.cs" />
     <Compile Include="Repositories\OrganizationRepository.cs" />
     <Compile Include="Repositories\VariableRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
