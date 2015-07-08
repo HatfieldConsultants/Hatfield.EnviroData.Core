@@ -472,7 +472,6 @@
     <Compile Include="VariableExternalIdentifier.cs">
       <DependentUpon>ODM2Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="WayToHandleNewData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config">
