@@ -7,7 +7,7 @@ namespace Hatfield.EnviroData.Core.Repositories
 {
     public class ActionRepository : Repository<Action>, IActionRepository
     {
-        private static readonly string ISChildOfRelationshipCV = "isChildOf";
+        private static readonly string ISChildOfRelationshipCV = "Is child of";
         public ActionRepository(IDbContext dbContext)
             : base(dbContext)
         {
