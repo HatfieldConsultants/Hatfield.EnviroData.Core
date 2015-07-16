@@ -243,6 +243,7 @@
     </Compile>
     <Compile Include="IOrganizationRepository.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="ISiteRepository.cs" />
     <Compile Include="IVariableRepository.cs" />
     <Compile Include="MaintenanceAction.cs">
       <DependentUpon>ODM2Model.tt</DependentUpon>
@@ -359,6 +360,7 @@
     <Compile Include="Repositories\ActionRepository.cs" />
     <Compile Include="Repositories\CVActionTypeRepository.cs" />
     <Compile Include="Repositories\OrganizationRepository.cs" />
+    <Compile Include="Repositories\SiteRepository.cs" />
     <Compile Include="Repositories\VariableRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Result.cs">
