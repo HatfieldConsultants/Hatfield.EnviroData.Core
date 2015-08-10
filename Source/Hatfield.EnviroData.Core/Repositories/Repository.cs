@@ -19,5 +19,11 @@ namespace Hatfield.EnviroData.Core.Repositories
         {
             return _dbContext.Query<T>();
         }
+
+
+        public int SaveChanges()
+        {
+            return _dbContext.SaveChanges();
+        }
     }
 }

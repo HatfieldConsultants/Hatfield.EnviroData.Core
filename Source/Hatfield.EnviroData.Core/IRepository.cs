@@ -9,5 +9,6 @@ namespace Hatfield.EnviroData.Core
     public interface IRepository<T> where T : class
     {
         IQueryable<T> GetAll();
+        int SaveChanges();
     }
 }
