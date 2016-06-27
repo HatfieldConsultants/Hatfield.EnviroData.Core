@@ -1,4 +1,10 @@
-# Hatfield's Environmental Data Management System: Core Shared Systems #
+# Hatfield's Environmental Data Management System: Core Shared Repository #
+
+###[View the Wiki for the EnviroData Project](https://github.com/HatfieldConsultants/Hatfield.EnviroData.Core/wiki)
+
+All EnviroData repositories use the wiki in this repository.
+
+# About this Repository
 
 This repository contains the shared systems used by the web, QA and Data Acquisition systems (ie Domain and Notification systems). This solution does not contain any UI implementations; the UI is located in the Hatfield.EnviroData.MVC solution/repository.
 
