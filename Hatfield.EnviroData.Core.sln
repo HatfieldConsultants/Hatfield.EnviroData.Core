@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatfield.EnviroData.Core", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{02D73824-F5F5-4CDE-B409-6A8168CE417E}"
 	ProjectSection(SolutionItems) = preProject
+		Deploy\ODM2_for_MSSQL.sql = Deploy\ODM2_for_MSSQL.sql
 		Deploy\schema.sql = Deploy\schema.sql
 	EndProjectSection
 EndProject
@@ -20,6 +21,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0180CCA8-7A1A-4A32-BFCF-8A261D83473B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatfield.EnviroData.Core.Test", "Test\Hatfield.EnviroData.Core.Test\Hatfield.EnviroData.Core.Test.csproj", "{64994DAE-5686-4790-BD7F-3ABEE217660F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatfield.EnviroData.DataProfile.WQ.Models", "Source\Hatfield.EnviroData.DataProfile.WQ.Models\Hatfield.EnviroData.DataProfile.WQ.Models.csproj", "{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatfield.EnviroData.DataProfile.WQ", "Source\Hatfield.EnviroData.DataProfile.WQ.Data\Hatfield.EnviroData.DataProfile.WQ.csproj", "{C6FBB34C-A8E5-4CC2-B354-645A77B94A40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +40,14 @@ Global
 		{64994DAE-5686-4790-BD7F-3ABEE217660F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64994DAE-5686-4790-BD7F-3ABEE217660F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64994DAE-5686-4790-BD7F-3ABEE217660F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FBB34C-A8E5-4CC2-B354-645A77B94A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FBB34C-A8E5-4CC2-B354-645A77B94A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FBB34C-A8E5-4CC2-B354-645A77B94A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FBB34C-A8E5-4CC2-B354-645A77B94A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

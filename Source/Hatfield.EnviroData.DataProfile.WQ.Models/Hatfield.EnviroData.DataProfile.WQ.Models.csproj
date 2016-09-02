@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64994DAE-5686-4790-BD7F-3ABEE217660F}</ProjectGuid>
+    <ProjectGuid>{3251F51A-A4D9-47C6-9B50-A0A996C9BA40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hatfield.EnviroData.Core.Test</RootNamespace>
-    <AssemblyName>Hatfield.EnviroData.Core.Test</AssemblyName>
+    <RootNamespace>Hatfield.EnviroData.DataProfile.WQ.Models</RootNamespace>
+    <AssemblyName>Hatfield.EnviroData.DataProfile.WQ.Models</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -21,7 +21,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,7 +29,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -42,13 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analyte.cs" />
+    <Compile Include="AnalyteCategory.cs" />
+    <Compile Include="FieldMeasurement.cs" />
+    <Compile Include="FieldSpecimen.cs" />
+    <Compile Include="FieldTripPlan.cs" />
+    <Compile Include="Observation.cs" />
+    <Compile Include="Lab.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="ProcessingLevel.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="FieldVisit.cs" />
+    <Compile Include="Site.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Source\Hatfield.EnviroData.Core\Hatfield.EnviroData.Core.csproj">
-      <Project>{b578fe6d-b7b8-4324-bb91-f9a6d5c801e9}</Project>
-      <Name>Hatfield.EnviroData.Core</Name>
-    </ProjectReference>
+    <Compile Include="Unit.cs" />
+    <Compile Include="LabReportSample.cs" />
+    <Compile Include="WQProfileEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
