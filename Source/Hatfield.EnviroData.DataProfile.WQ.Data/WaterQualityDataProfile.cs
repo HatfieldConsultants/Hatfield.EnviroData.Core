@@ -7,6 +7,7 @@ namespace Hatfield.EnviroData.DataProfile.WQ
 {
     public class WaterQualityDataProfile : IWaterQualityDataProfile, IDisposable
     {
+        private static string SiteSampleFeatureTypeCV = "Site";
         private Hatfield.EnviroData.Core.ODM2Entities _dbContext;
 
         public WaterQualityDataProfile(Hatfield.EnviroData.Core.ODM2Entities dbContext)
@@ -20,7 +21,10 @@ namespace Hatfield.EnviroData.DataProfile.WQ
         /// <returns></returns>
         public IQueryable<Project> GetAllProjects()
         {
-            throw new NotImplementedException();
+            return _dbContext.Projects
+                .Select(
+                    x => new Project(x.ProjectID, x.ProjectName, null)
+                );            
         }
 
         /// <summary>
@@ -30,7 +34,7 @@ namespace Hatfield.EnviroData.DataProfile.WQ
         public IQueryable<Site> GetAllSites()
         {
             var siteModels = from site in _dbContext.SamplingFeatures
-                             where (site.SamplingFeatureTypeCV == "Site")
+                             where (site.SamplingFeatureTypeCV == SiteSampleFeatureTypeCV)
                              select new Site
                              {
                                  Id = site.SamplingFeatureID,
@@ -42,22 +46,7 @@ namespace Hatfield.EnviroData.DataProfile.WQ
             return siteModels;
         }
 
-        /// <summary>
-        /// Save or Update site data
-        /// </summary>
-        /// <param name="site">site that need to update or insert</param>
-        /// <returns></returns>
-        public Site SaveOrUpdateSite(Site site)
-        {
-            var domainBuildResult = DomainBuilderFactory.Create(site.GetType()).Build(site, _dbContext);
-            _dbContext.Entry(domainBuildResult.Data).State = domainBuildResult.State;
-            _dbContext.SaveChanges();
-
-            var castedDomain = (Hatfield.EnviroData.Core.Site)domainBuildResult.Data;
-            site.Id = castedDomain.SamplingFeatureID;
-
-            return site;
-        }
+        
 
         /// <summary>
         /// Get all the analytes in the databases
@@ -222,15 +211,7 @@ namespace Hatfield.EnviroData.DataProfile.WQ
             return samplingActivityModels;
         }
 
-        /// <summary>
-        /// Save or Update sampling activities
-        /// </summary>
-        /// <param name="samples">sampling activities to save or update</param>
-        /// <returns></returns>
-        public bool SaveOrUpdateSamplingActivities(IEnumerable<FieldVisit> samples)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         /// <summary>
         /// Query water quality data
@@ -486,6 +467,7 @@ namespace Hatfield.EnviroData.DataProfile.WQ
             return waterQualityObervationModel;
         }
 
+        #region save or update
         /// <summary>
         /// Save or update water quality samples
         /// </summary>
@@ -495,6 +477,35 @@ namespace Hatfield.EnviroData.DataProfile.WQ
         {
             throw new NotImplementedException();
         }
+
+        /// <summary>
+        /// Save or Update sampling activities
+        /// </summary>
+        /// <param name="samples">sampling activities to save or update</param>
+        /// <returns></returns>
+        public bool SaveOrUpdateSamplingActivities(IEnumerable<FieldVisit> samples)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Save or Update site data
+        /// </summary>
+        /// <param name="site">site that need to update or insert</param>
+        /// <returns></returns>
+        public Site SaveOrUpdateSite(Site site)
+        {
+            var domainBuildResult = DomainBuilderFactory.Create(site.GetType()).Build(site, _dbContext);
+            _dbContext.Entry(domainBuildResult.Data).State = domainBuildResult.State;
+            _dbContext.SaveChanges();
+
+            var castedDomain = (Hatfield.EnviroData.Core.Site)domainBuildResult.Data;
+            site.Id = castedDomain.SamplingFeatureID;
+
+            return site;
+        }
+
+        #endregion save or update
 
         public void Dispose()
         {
