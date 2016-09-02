@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatfield.EnviroData.Core", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{02D73824-F5F5-4CDE-B409-6A8168CE417E}"
 	ProjectSection(SolutionItems) = preProject
+		Deploy\extension.sql = Deploy\extension.sql
 		Deploy\ODM2_for_MSSQL.sql = Deploy\ODM2_for_MSSQL.sql
 		Deploy\schema.sql = Deploy\schema.sql
 	EndProjectSection
